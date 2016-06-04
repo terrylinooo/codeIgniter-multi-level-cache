@@ -24,7 +24,7 @@ If you have troble about too many files in a cache folder, here is a solution fo
 ------------------------------------
 ##Setup##
 
-Add config varible `multi_level_cache_folders` to the `config.php` or load it directly in Controller, for example:
+Add config variable `multi_level_cache_folders` to the `config.php` or load it directly in Controller, for example:
 
 ```php
 $folder_array = array(2,2);
