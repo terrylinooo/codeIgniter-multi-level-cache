@@ -40,6 +40,8 @@ $config['multi_level_cache_folders'] = array(3,1,2);
 ```
 The cache file will be stored at `cache/b26/9/0d/b2690d029271df88fe87305766f95db4`
 
+####This script will back to use origial (layer-1) folder if the config variable `multi_level_cache_folders` is not set.####
+
 
 
 
