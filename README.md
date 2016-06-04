@@ -7,7 +7,7 @@ Codeigniter's file-based caching system will take the completely rendered output
 If you have troble about too many files in a cache folder, here is a solution for you, it is easy and simple.
 
 ------------------------------------
-###Installation###
+##Installation##
 
 ####Web Page Cache####
 
@@ -20,7 +20,7 @@ If you have troble about too many files in a cache folder, here is a solution fo
 2. Copy `MY_DB_cache.php` to  `/application/libraries/` folder.
 
 ------------------------------------
-###Setup###
+##Setup##
 
 Add config varible `multi_level_cache_folders` to the `config.php` or load it directly in Controller, for example:
 
