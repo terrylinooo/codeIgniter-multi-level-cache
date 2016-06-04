@@ -6,6 +6,8 @@ Codeigniter's file-based caching system will take the completely rendered output
 
 If you have troble about too many files in a cache folder, here is a solution for you, it is easy and simple.
 
+**Test OK in CodeIgniter 3.06**
+
 ------------------------------------
 ##Installation##
 
