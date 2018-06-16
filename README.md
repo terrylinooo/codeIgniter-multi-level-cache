@@ -1,6 +1,7 @@
 # CodeIgniter Multi-level Cache
-####Simple modification makes the cache files store to multi-level sub-folders.
-------------------------------------
+
+Simple modification makes the cache files store to multi-level sub-folders.
+
 
 Codeigniter's file-based caching system will take the completely rendered output for HTML and SQL object, when an user visit your web page, Codeigniter will load the data from cache files without MySQL connections, it reduces the server CPU loading a lot. But If you have 100K cache files in the same folder, it may have performace problem.
 
@@ -8,8 +9,9 @@ If you have troble about too many files in a cache folder, here is a solution fo
 
 **Test OK in CodeIgniter 3.06**
 
-------------------------------------
-##Installation##
+---
+
+## Installation
 
 *Web Page Cache*
 
@@ -21,11 +23,13 @@ If you have troble about too many files in a cache folder, here is a solution fo
 1. Copy `MY_Loader.php` to `/application/core/` folder.
 2. Copy `MY_DB_cache.php` to  `/application/libraries/` folder.
 
-------------------------------------
-##Setup##
+---
+
+## Setup
 
 Add config variable `multi_level_cache_folders` to the `config.php` or load it directly in Controller, for example:
 
+Example 1:
 ```php
 $folder_array = array(2,2);
 $this->config->set_item('multi_level_cache_folders', $folder_array);
@@ -40,7 +44,9 @@ $config['multi_level_cache_folders'] = array(3,1,2);
 ```
 The cache file will be stored at `cache/b26/9/0d/b2690d029271df88fe87305766f95db4`
 
-####This script will back to use origial (layer-1) folder if the config variable `multi_level_cache_folders` is not set.####
+---
+
+This script will back to use origial (layer-1) folder if the config variable `multi_level_cache_folders` is not set.
 
 
 
